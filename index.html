@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weight Converter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="weight-app-container">
+      <h1>Weight Converter</h1>
+      <div class="input-container">
+        <label for="converter-input">Pounds:</label>
+        <input type="number" class="converter-input" id="converter-input" step=".1" placeholder="Enter number">
+      </div>
+      <p id="result">Your weight in kg is: <span id="converted-number"></span></p>
+      <p class="error" id="error"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
